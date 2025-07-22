@@ -14,12 +14,27 @@ print("This is going to be awesome!")
 print("\n" + "="*50)
 
 # YOUR CODE HERE - Create 3 print statements about yourself:
+print("Hello, my name is Leonard")
+print("I am learning Python programming!")
+print("This is going to be awesome!")
 
 print("\n" + "="*50)
 
 
 # Exercise 1.2: Print with Spacing and Formatting
 # Learn how empty print() creates blank lines for better formatting
+
+
+# YOUR CODE HERE - Create a nicely formatted list of your favorite things:
+print("My Information:")
+print()  # This creates a blank line
+print("Name: Leonard Esuraiman")
+print("Age: 28")
+print()  # Another blank line
+print("Thank you for reading!")
+
+print("\n" + "="*50)
+# Use empty print() statements to make it look organized
 print("My Information:")
 print()  # This creates a blank line
 print("Name: [Your Name]")
@@ -28,10 +43,6 @@ print()  # Another blank line
 print("Thank you for reading!")
 
 print("\n" + "="*50)
-
-# YOUR CODE HERE - Create a nicely formatted list of your favorite things:
-# Use empty print() statements to make it look organized
-
 
 print("\n" + "="*50)
 
@@ -48,7 +59,11 @@ print("\n" + "="*50)
 # YOUR CODE HERE - Create a fun display using special characters:
 # Try: ★ → ♦ ● ◆ ▲ ▼ ✓ ✗ 🎯 🚀 💻 🐍
 
-
+print("★ Special Characters are Fun! ★")
+print("→ Arrow pointing right")
+print("♦ Diamond symbol")
+print("🎉 Party emoji")
+print("▓▓▓ Block characters")
 
 
 print("\n" + "="*50)
