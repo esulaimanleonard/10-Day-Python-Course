@@ -16,6 +16,11 @@ print("\n" + "="*50)
 
 # YOUR CODE HERE - Practice choosing the right quote type:
 # Create sentences about movies, books, or songs with titles in quotes
+print("My favorite movie is 'The Matrix'.")
+print('Have you read "To Kill a Mockingbird"?')
+print("I can't stop listening to the song 'Bohemian Rhapsody'.")
+print('She said, "The Lord of the Rings is a masterpiece."')
+print("He called it 'a once-in-a-generation performance'.")
 
 print("\n" + "="*50)
 
