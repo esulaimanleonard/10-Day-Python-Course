@@ -15,7 +15,12 @@ print("Wow,", age, "is a great age!")
 print("\n" + "="*50)
 # YOUR CODE HERE - Create your own input conversation:
 # Ask for their favorite color and hobby, then respond
-# YOUR CODE HERE:
+
+color = input("What is your favorite color? ")
+hobby = input("What do you love doing in your free time? ")
+
+print("Nice! " + color + " is such a cool color.")
+print("And spending time on", hobby, "sounds fun!")
 
 
 
@@ -42,6 +47,22 @@ print("\n" + "="*50)
 # Ask about travel, weekend activities, or future goals
 # Make it engaging with emojis and nice formatting
 # YOUR CODE HERE:
+
+print("\n🌍 Let's Talk About You! ✈️")
+
+place = input("🏖️ If you could travel anywhere, where would you go? ")
+weekend = input("🎉 What's your favorite thing to do on the weekend? ")
+goal = input("🚀 What's one big goal you have for the future? ")
+
+print(f"""
+📝 Your Personal Journey 📝
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌴 Dream Destination: {place}
+🛋️ Weekend Fun: {weekend}
+🎯 Future Goal: {goal}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Awesome! Keep dreaming big and doing what you love! 💪
+""")
 
 
 
