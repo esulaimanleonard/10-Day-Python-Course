@@ -23,6 +23,11 @@
 # my_location = ...
 # my_hobby = ...
 # my_fun_fact = ...
+# STEP 1: Define Your Profile Variables
+my_name = "Leonard Esulaiman"
+my_location = "Malawi"
+my_hobby = "Learning Japanese and coding"
+my_fun_fact = "I once taught computer science to high school students!"
 
 
 
@@ -37,17 +42,19 @@
 # even some ASCII art to make it look cool.
 
 # YOUR CODE HERE: Write your print statements below.
-#
-# Example:
-# print("**********************************")
-# print("* *")
-# print("* -- MY AWESOME PROFILE --    *")
-# print("* *")
-# print("**********************************")
-# print() # This creates an empty line
-# print("Hello, my name is:", my_name)
-# ... and so on for the rest of your variables.
-#
+# STEP 2: Print Your Profile
+print("===========================================")
+print("*                                         *")
+print("*        🌟 MY PERSONAL PROFILE 🌟        *")
+print("*                                         *")
+print("===========================================\n")
+
+print(f"Hello, my name is: {my_name}")
+print(f"I live in: {my_location}")
+print(f"My hobby is: {my_hobby}")
+print(f"Fun fact about me: {my_fun_fact}")
+
+print("\nThanks for checking out my profile!")
 # Don't forget to add some ASCII art!
 #
 # Example ASCII Art (a simple smiley face):
@@ -55,3 +62,16 @@
 # print("Here's a smiley face for you:")
 # print("  :-)  ")
 # print()
+# ASCII Art - A little rocket for motivation 🚀
+print("\n    Here's a rocket to success for you:")
+print("         ^")
+print("        / \\")
+print("       /___\\")
+print("      |=o o=|")
+print("      |  ^  |")
+print("      | '-' |")
+print("      +-----+")
+print("       | | |")
+print("      [=====]")
+print("     /       \\")
+print("    |        \\")
