@@ -30,6 +30,21 @@ print("\n" + "="*50)
 # YOUR CODE HERE - Try basic if statements:
 # Ask for a test score and give different messages for different ranges
 # YOUR CODE HERE:
+# Ask for a test score and give feedback based on the score
+score = int(input("Enter your test score (0-100): "))
+
+if score >= 90:
+    print("Excellent! You got an A.")
+if 80 <= score < 90:
+    print("Great job! You got a B.")
+if 70 <= score < 80:
+    print("Good effort! You got a C.")
+if 60 <= score < 70:
+    print("You passed with a D.")
+if score < 60:
+    print("Sorry, you failed the test.")
+
+print("\nThanks for using the program!")
 
 
 print("\n" + "="*50)
@@ -68,5 +83,28 @@ print("\n" + "="*50)
 # YOUR CODE HERE - Create a multi-choice system:
 # Ideas: movie genre recommender, study time advisor
 # YOUR CODE HERE:
+print("\n🎬 Movie Genre Recommender")
+
+print("How are you feeling today?")
+print("1. I want to laugh")
+print("2. I feel adventurous")
+print("3. I'm in the mood for love")
+print("4. I want something scary")
+print("5. I just want to relax")
+
+choice = int(input("Enter the number that matches your mood (1–5): "))
+
+if choice == 1:
+    print("Try watching a comedy! You'll enjoy some good laughs.")
+elif choice == 2:
+    print("Check out an action or adventure movie. Something thrilling!")
+elif choice == 3:
+    print("A romantic movie sounds perfect for you.")
+elif choice == 4:
+    print("Watch a horror movie if you're up for a scare!")
+elif choice == 5:
+    print("How about a chill documentary or a calm slice-of-life film?")
+else:
+    print("That wasn't one of the options. Try again with a number from 1 to 5.")
 
 print("\n" + "="*50)
