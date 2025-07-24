@@ -42,7 +42,19 @@ print("\n" + "="*50)
 # 4. Print your least favorite of the three (the last one).
 # YOUR CODE HERE:
 
+print("🍽️ My Favorite Foods")
 
+# 1. Create a list of  three favorite foods.
+favorite_foods = ["pizza", "sushi", "chicken curry"]
+
+# 2. Print the entire list.
+print("Favorite foods list:", favorite_foods)
+
+# 3. Print the food that is absolute favorite (the first one).
+print("Absolute favorite food:", favorite_foods[0])
+
+# 4. Print your least favorite of the three (the last one).
+print("Least favorite of the three:", favorite_foods[-1])
 
 print("\n" + "="*50)
 
@@ -73,7 +85,20 @@ print("\n" + "="*50)
 # 4. Print both slices.
 # YOUR CODE HERE:
 
+print("📅 Slicing Days of the Week")
 
+# 1. Create a list of the days of the week
+days_of_week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+
+# 2. Create a slice containing just the weekdays (Mon to Fri)
+weekdays = days_of_week[:5]
+
+# 3. Create a slice containing just the weekend (Sat and Sun)
+weekend = days_of_week[5:]
+
+# 4. Print both slices
+print("Weekdays:", weekdays)
+print("Weekend:", weekend)
 
 print("\n" + "="*50)
 
@@ -100,8 +125,20 @@ print("\n" + "="*50)
 # 3. You forgot eggs! Insert "eggs" at the beginning of the list.
 # 4. Print the final list.
 # YOUR CODE HERE:
+print("🛒 Building a Grocery List")
 
+# 1. Start with an empty list called `groceries`.
+groceries = []
 
+# 2. Append "milk" and "bread" to the list.
+groceries.append("milk")
+groceries.append("bread")
+
+# 3. You forgot eggs! Insert "eggs" at the beginning of the list.
+groceries.insert(0, "eggs")
+
+# 4. Print the final list.
+print("Final grocery list:", groceries)
 
 print("\n" + "="*50)
 
@@ -133,7 +170,22 @@ print("\n" + "="*50)
 # 3. You need to un-invite the first person on the list. Use `del`.
 # 4. Print the final guest list.
 # YOUR CODE HERE:
+print("🎉 Managing Party RSVPs")
 
+# 1. Create a list of guests
+guests = ["Eve", "Mallory", "Trent"]
+print("Initial guest list:", guests)
+
+# 2. Mallory can't make it. Remove "Mallory" by its value.
+guests.remove("Mallory")
+print("After removing Mallory:", guests)
+
+# 3. You need to un-invite the first person on the list. Use `del`.
+del guests[0]
+print("After un-inviting the first guest:", guests)
+
+# 4. Print the final guest list
+print("Final guest list:", guests)
 
 
 print("\n" + "="*50)
