@@ -35,6 +35,13 @@ print("\n" + "="*50)
 # 3. Inside the function, print a sentence like "I have a [animal_type] named [pet_name]."
 # 4. Call your function for a dog named "Willie" and a cat named "Whiskers".
 # YOUR CODE HERE:
+# Define the function with two parameters
+def describe_pet(animal_type, pet_name):
+    print(f"I have a {animal_type} named {pet_name}.")
+
+# Call the function with the required arguments
+describe_pet("dog", "Willie")
+describe_pet("cat", "Whiskers")
 
 
 
