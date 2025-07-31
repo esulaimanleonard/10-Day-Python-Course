@@ -48,6 +48,15 @@ print("\n" + "="*50)
 # 4. Print "1", then pause for 1 second.
 # 5. Print "Go!"
 # YOUR CODE HERE:
+import time  # Imports the time module
+
+print("This will print immediately.")  # Prints right away
+
+time.sleep(2)  # Pauses execution for 2 seconds
+
+print("This printed after a 2-second delay.")  # Prints after the pause
+
+print("\n" + "="*50)  # Prints a line of equal signs for visual separation
 
 
 
