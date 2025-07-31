@@ -24,6 +24,10 @@ print("\n" + "="*50)
 # 3. Print a message like "We are in the year [YEAR]."
 # YOUR CODE HERE:
 
+current_datetime = datetime.datetime.now()
+current_year = current_datetime.year
+print(f"We are in the year {current_year}.")
+
 
 
 print("\n" + "="*50)
