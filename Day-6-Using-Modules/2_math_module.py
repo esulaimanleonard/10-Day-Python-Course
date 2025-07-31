@@ -34,6 +34,10 @@ print("\n" + "="*50)
 # 3. Print the result.
 # YOUR CODE HERE:
 
+side_length = 10
+diagonal = side_length * math.sqrt(2)
+print(f"The diagonal of a square with side length {side_length} is {diagonal:.2f}")
+
 
 
 print("\n" + "="*50)
